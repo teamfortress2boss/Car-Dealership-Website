@@ -1,0 +1,92 @@
+// styles.scss
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contacts {
+    text-align: center;
+}
+
+#car-listings {
+    margin-top: 20px;
+}
+
+#car-listings div {
+    display: block;
+    margin-top: 20px;
+}
+
+
+.car {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 50%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.car-details {
+    padding: 15px;
+    display: inline;
+    position: relative;
+    left: 20px; 
+}
+
+.car-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4B0082;
+    margin-bottom: 5px;
+}
+
+.car-condition {
+    font-size: 16px;
+    color: #FF00FF;
+    margin-bottom: 5px;
+}
+
+.car-condition-text {
+    font-weight: bold;
+}
+
+.car-price {
+    font-size: 16px;
+    color: #008000;
+    margin-bottom: 0;
+}
+
+.car-price-text {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #00008B;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
